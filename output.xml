@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190916 13:24:18.976" generator="Rebot 3.0.4 (Python 2.7.16 on win32)">
+<suite source="C:\Users\Lek Anusit\Desktop\robot-aek\7Server\test.robot" id="s1" name="Test">
+<test id="s1-t1" name="open google 1 (ie)">
+<kw name="open google ie" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${google url}</arg>
+<arg>${ie browser}</arg>
+<arg>remote_url=${remote url}</arg>
+</arguments>
+<msg timestamp="20190916 13:23:52.866" level="INFO">Opening browser 'ie' to base url 'http://www.google.com' through remote server at 'http://localhost:4444/wd/hub'</msg>
+<status status="PASS" endtime="20190916 13:23:56.737" starttime="20190916 13:23:52.865"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190916 13:23:56.758" starttime="20190916 13:23:56.737"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:23:56.758" starttime="20190916 13:23:52.864"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:23:56.759" critical="yes" starttime="20190916 13:23:52.863"></status>
+</test>
+<test id="s1-t2" name="open google 2 (ie)">
+<kw name="open google ie" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${google url}</arg>
+<arg>${ie browser}</arg>
+<arg>remote_url=${remote url}</arg>
+</arguments>
+<msg timestamp="20190916 13:23:52.832" level="INFO">Opening browser 'ie' to base url 'http://www.google.com' through remote server at 'http://localhost:4444/wd/hub'</msg>
+<status status="PASS" endtime="20190916 13:23:56.439" starttime="20190916 13:23:52.831"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190916 13:23:56.472" starttime="20190916 13:23:56.439"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:23:56.472" starttime="20190916 13:23:52.831"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:23:56.473" critical="yes" starttime="20190916 13:23:52.830"></status>
+</test>
+<test id="s1-t3" name="open google 3 (ff)">
+<kw name="open google ff" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${google url}</arg>
+<arg>${ff browser}</arg>
+<arg>remote_url=${remote url}</arg>
+</arguments>
+<msg timestamp="20190916 13:23:53.204" level="INFO">Opening browser 'ff' to base url 'http://www.google.com' through remote server at 'http://localhost:4444/wd/hub'</msg>
+<status status="PASS" endtime="20190916 13:24:12.204" starttime="20190916 13:23:53.203"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190916 13:24:18.746" starttime="20190916 13:24:12.206"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:24:18.747" starttime="20190916 13:23:53.202"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:24:18.747" critical="yes" starttime="20190916 13:23:53.201"></status>
+</test>
+<test id="s1-t4" name="open google 4 (gc)">
+<kw name="open google3 gc" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${google url}</arg>
+<arg>${gc browser}</arg>
+<arg>remote_url=${remote url}</arg>
+</arguments>
+<msg timestamp="20190916 13:23:52.971" level="INFO">Opening browser 'chrome' to base url 'http://www.google.com' through remote server at 'http://localhost:4444/wd/hub'</msg>
+<status status="PASS" endtime="20190916 13:24:03.957" starttime="20190916 13:23:52.966"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190916 13:24:04.415" starttime="20190916 13:24:03.957"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:24:04.416" starttime="20190916 13:23:52.965"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:24:04.416" critical="yes" starttime="20190916 13:23:52.964"></status>
+</test>
+<test id="s1-t5" name="open google 5 (gc)">
+<kw name="open google3 gc" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${google url}</arg>
+<arg>${gc browser}</arg>
+<arg>remote_url=${remote url}</arg>
+</arguments>
+<msg timestamp="20190916 13:24:00.350" level="INFO">Opening browser 'chrome' to base url 'http://www.google.com' through remote server at 'http://localhost:4444/wd/hub'</msg>
+<status status="PASS" endtime="20190916 13:24:12.031" starttime="20190916 13:24:00.349"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190916 13:24:12.413" starttime="20190916 13:24:12.032"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:24:12.414" starttime="20190916 13:24:00.348"></status>
+</kw>
+<status status="PASS" endtime="20190916 13:24:12.414" critical="yes" starttime="20190916 13:24:00.346"></status>
+</test>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 5 executions.</doc>
+<status status="PASS" endtime="20190916 13:24:18.749" starttime="20190916 13:23:52.110"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="5">Critical Tests</stat>
+<stat fail="0" pass="5">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test" pass="5">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
